@@ -22,36 +22,22 @@
 (add-to-list 'load-path dotfiles-lib-dir)
 (require 'dircolors)
 (require 'smooth-scrolling)
-(require 'rainbow-parens)
 (require 'rainbow-delimiters)
 (require 'mwe-log-commands)
+(require 'ace-jump-mode)
 
+(load-live-config-file "key-chord-conf.el")
 (load-live-config-file "util-fns.el")
 (load-live-config-file "built-in.el")
 (load-live-config-file "paredit-conf.el")
 (load-live-config-file "lisps-conf.el")
 (load-live-config-file "cosmetic.el")
 (load-live-config-file "highlight-flash-conf.el")
+(load-live-config-file "volatile-highlights-conf.el")
 (load-live-config-file "ido-conf.el")
 (load-live-config-file "clojure-conf.el")
 (load-live-config-file "slime-conf.el")
 (load-live-config-file "auto-complete-conf.el")
-(load-live-config-file "durendal-conf.el")
 (load-live-config-file "smex-conf.el")
 (load-live-config-file "yasnippet-conf.el")
 (load-live-config-file "undo-tree-conf.el")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
